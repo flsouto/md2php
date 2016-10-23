@@ -1,0 +1,14 @@
+{
+    "name": "flsouto/md2php",
+    "description": "Extracts php code blocks from markdown files and saves them nicely",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fabio Souto",
+            "email": "fabiolimasouto@gmail.com"
+        }
+    ],
+    "keywords" : ["command-line","tool","markdown","code","snippets"],
+    "minimum-stability": "dev",
+    "require": {}
+}
