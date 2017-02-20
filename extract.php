@@ -93,5 +93,6 @@ function heading2filename($heading){
 		}
 		$words[] = strtolower($word);
 	}
-	return implode('_',$words);
+	$name = implode('_',$words);
+	return preg_replace("/[^a-zA-Z0-9_-]+/", "", $name);
 }
